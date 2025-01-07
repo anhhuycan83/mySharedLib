@@ -1,5 +1,5 @@
 #!/usr/bin/env groovy
-import org.example.pipelineUtils
+import org.example.PipelineUtils
 
 /* groovylint-disable-next-line MethodReturnTypeRequired, NoDef */
 def call(String repoName) {
