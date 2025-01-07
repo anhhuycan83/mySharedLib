@@ -4,5 +4,6 @@ import org.example.PipelineUtils
 /* groovylint-disable-next-line MethodReturnTypeRequired, NoDef */
 def call(String repoName) {
     // sh("echo 'callDownstreamPipeline.groovy'")
-    pipelineUtils.callDownstreamPipeline(repoName)
+    def myUtil = new PipelineUtils()
+    myUtil.callDownstreamPipeline(repoName)
 }
