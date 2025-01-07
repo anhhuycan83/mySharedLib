@@ -1,7 +1,8 @@
-import org.example.PipelineUtils
+#!/usr/bin/env groovy
+import org.example.pipelineUtils
 
 /* groovylint-disable-next-line MethodReturnTypeRequired, NoDef */
 def call(String repoName) {
     // sh("echo 'callDownstreamPipeline.groovy'")
-    PipelineUtils.callDownstreamPipeline(repoName)
+    pipelineUtils.callDownstreamPipeline(repoName)
 }

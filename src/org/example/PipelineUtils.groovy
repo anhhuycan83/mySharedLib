@@ -1,7 +1,7 @@
 package org.example
 
 /* groovylint-disable-next-line ClassJavadoc, CompileStatic */
-class PipelineUtils {
+class pipelineUtils {
 
     static void callDownstreamPipeline(String repoName) {
         // echo 'PipelineUtils.groovy'
