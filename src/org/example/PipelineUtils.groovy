@@ -1,3 +1,4 @@
+#!/usr/bin/env groovy
 package org.example
 
 /* groovylint-disable-next-line ClassJavadoc, ClassName, ClassNameSameAsFilename, CompileStatic */
